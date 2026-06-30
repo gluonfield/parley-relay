@@ -8,6 +8,9 @@ nothing else. It holds no keys and sees no plaintext — a `Data` frame's payloa
 is ciphertext whose key lives only on the two endpoints. It links no crypto at
 all.
 
+The relay has no Parley identity. Only the two endpoint nodes have identities;
+the relay is just an untrusted message carrier.
+
 ## Run
 
 ```sh
